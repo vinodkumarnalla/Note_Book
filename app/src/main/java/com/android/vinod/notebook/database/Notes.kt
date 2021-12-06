@@ -9,4 +9,6 @@ class Notes {
     var id: Int = 0
 
     var notes: String? = null
+
+    var title:String?=null
 }

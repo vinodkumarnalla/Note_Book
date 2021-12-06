@@ -11,6 +11,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.MySplash">
         <activity
+            android:name=".view.CreateNotesActivity"
+            android:exported="false"
+            android:label="@string/title_activity_create_notes"
+            android:theme="@style/Theme.NoteBook"/>
+        <activity
             android:name=".view.NotesListActivity"
             android:exported="true">
             <intent-filter>
